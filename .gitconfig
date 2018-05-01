@@ -1,0 +1,24 @@
+[user]
+	email = danby@gmail.com
+	name = Dan Ben Yosef
+
+[color]
+	ui = auto
+[core]
+	editor = vim
+
+[sendemail]
+    smtpserver = /usr/bin/msmtp
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	
+	graph = log --graph --pretty=format:'%C(yellow)%h%Creset%C(yellow bold)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	rlog = log --show-notes=review
+	#g = log --graph --pretty=format:'%C(yellow)%h%Creset%C(yellow bold)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+
+[help]
+    autocorrect = 1
+[gitreview]
+    username = danby
